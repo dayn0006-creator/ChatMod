@@ -21,7 +21,7 @@ jobs:
 
     # Этот шаг автоматически сгенерирует правильный Gradle Wrapper внутри облака
     - name: Wrapper Setup
-      run: gradle wrapper --gradle-version 8.12
+      run: gradle wrapper --gradle-version 8.5
 
     - name: Build with Gradle Wrapper
       run: ./gradlew build -x test
