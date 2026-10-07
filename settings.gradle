@@ -2,10 +2,10 @@ pluginManagement {
     repositories {
         maven {
             name = 'Fabric'
-            url = URI.create('https://fabricmc.net')
+            url = 'https://fabricmc.net'
         }
-        gradlePluginPortal()
         mavenCentral()
+        gradlePluginPortal()
     }
 }
 
@@ -13,7 +13,7 @@ dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         mavenCentral()
-        maven { url = URI.create('https://fabricmc.net') }
+        maven { url = 'https://fabricmc.net' }
     }
 }
 
